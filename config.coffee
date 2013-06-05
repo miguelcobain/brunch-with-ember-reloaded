@@ -28,8 +28,8 @@ exports.config =
       root: 'templates'
       joinTo: 'javascripts/app.js' : /^app/
 
-      modules:
-        addSourceURLs: true
+  modules:
+    addSourceURLs: true
 
   # allow _ prefixed templates so partials work
   conventions:
